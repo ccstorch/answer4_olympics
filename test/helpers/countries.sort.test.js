@@ -72,19 +72,5 @@ describe('Countries Sort', () => {
       const countryB = generateCountry({ name: 'JPN', total: 4, gold: 2, silver: 2 , bronze: 0 });
       assert(compareTwoCountriesForSort(countryA, countryB) === 0);
     });
-
-    // it('should return an array with USA on top', () => {
-    //   assert.equal(sortedCountries[0].name, usa.name);
-    // });
-    //
-    // it('should return an array with ETH on bottom', () => {
-    //   assert.equal(sortedCountries[sortedCountries.length - 1].name, eth.name);
-    // });
-    //
-    // it('should add a ranking value for each item', () => {
-    //   assert.equal(sortedCountries[0].ranking, 1);
-    //   assert.equal(sortedCountries[1].ranking, 2);
-    //   assert.equal(sortedCountries[2].ranking, 3);
-    // });
   });
 });
