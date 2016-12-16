@@ -1,0 +1,16 @@
+*,
+* * {
+  font-size: 16px;
+  color: $detail1;
+  font-family: $mainFontFamily;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  background: $detail6;
+}

@@ -1,0 +1,37 @@
+.counter {
+  text-align: center;
+  padding: 0 1rem;
+
+  .label,
+  .value {
+    color: $detail2;
+    font-weight: 400;
+  }
+
+  .value {
+    font-size: 1.2rem;
+  }
+
+  .label {
+    margin-top: 2px;
+    font-size: 0.65rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  &.highlight {
+    .label,
+    .value {
+      color: $main;
+      font-weight: 600;
+    }
+
+    .value {
+      font-size: 1.375rem;
+    }
+
+    .label {
+      font-size: 0.75rem;
+    }
+  }
+}

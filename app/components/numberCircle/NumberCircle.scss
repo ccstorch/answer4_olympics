@@ -1,0 +1,17 @@
+$numberCircleSize: 3rem;
+
+.numberCircle {
+  background: $detail1;
+  height: $numberCircleSize;
+  width: $numberCircleSize;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: $numberCircleSize;
+
+  .value {
+    line-height: $numberCircleSize;
+    color: white;
+    font-weight: 500;
+    font-size: 1.375rem;
+  }
+}

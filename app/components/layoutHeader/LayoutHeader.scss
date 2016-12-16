@@ -1,0 +1,23 @@
+.layoutHeader {
+  text-align: center;
+  padding: 2.5rem;
+
+  .title,
+  .subtitle {
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  .title {
+    font-weight: 500;
+    font-size: 1.5rem;
+    letter-spacing: 0.125rem;
+  }
+
+  .subtitle {
+    margin-top: 0.1875rem;
+    font-weight: 200;
+    font-size: 0.625rem;
+    letter-spacing: 0.02rem;
+  }
+}

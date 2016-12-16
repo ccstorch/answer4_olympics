@@ -1,0 +1,30 @@
+.medalsGridItem {
+  display: block;
+  padding: 3rem 1.5rem;
+  border: solid 1px $detail6;
+  border-bottom: none;
+  border-left: none;
+  width: 50%;
+  float: left;
+  text-align: center;
+
+  .medal,
+  .event,
+  .athlete {
+    color: $detail3;
+  }
+
+  .athlete {
+    font-weight: 500;
+    font-size: 1.125rem;
+    margin: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  .medal,
+  .event {
+    margin: 0;
+    margin-top: 0.2rem;
+    font-size: 0.75rem;
+  }
+}

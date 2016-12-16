@@ -1,0 +1,10 @@
+.countriesList {
+  border-top: solid 1px $detail6;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  .link {
+    display: block;
+  }
+}

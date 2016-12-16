@@ -1,0 +1,48 @@
+.countriesListItem {
+  display: block;
+  padding: 1.25rem 1.875rem;
+  border-bottom: solid 1px $detail6;
+
+  &:hover {
+    background: transparentize($main, .95);
+  }
+
+  .numberCircle,
+  .counter,
+  .title {
+    vertical-align: middle;
+    display: inline-block;
+  }
+
+  .totalWrapper {
+    width: 20%;
+    float: left;
+    text-align: right;
+  }
+
+  .titleWrapper {
+    width: 28%;
+    float: left;
+  }
+
+  .medalsWrapper {
+    padding: 0.3rem 0;
+    width: 52%;
+    float: left;
+    text-align: center;
+  }
+
+  .title {
+    display: inline-block;
+    margin: 0;
+    margin-left: 1.125rem;
+    font-weight: 500;
+    font-size: 1.375;
+  }
+
+  &:after {
+    clear: both;
+    display: table;
+    content: ' ';
+  }
+}
