@@ -11,9 +11,9 @@ class ShowCountryView extends Component {
   }
 
   render() {
-    const { country, countries, fetchData } = this.props;
+    const { country } = this.props;
     if(!country) return false;
-    
+
     return (
       <div>
         <CountryHeadline country={country} />
