@@ -1,4 +1,4 @@
-# Kitman Labs Frontent Test
+# Kitman Labs Frontend Test
 
 I know the test was simple, but I decided to go with react and redux to give more of a large app structure.
 
@@ -30,7 +30,7 @@ npm test
 ```
 answer4_olympics/
   app/
-    api/            // External api calls, for this example is just reading the json file
+    api/            // External api calls, for this project is just reading the json file
     components/     // Dumb reusable components
     helpers/        // Helpers functions and logic, like formatting and sorting the countries
     styles/         // Main sass files, styles related with components are in the components folders
